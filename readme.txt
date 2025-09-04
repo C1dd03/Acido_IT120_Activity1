@@ -203,7 +203,53 @@ jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (acido_b4)
 $ git add readme.txt
 
 jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (acido_b4)
-$ git commit -m "Update readme and Delete Test files"
+$ git commit -m "Update readme and Delete test files"
+[acido_b4 5831ed9] Update readme and Delete test files
+ 2 files changed, 209 insertions(+), 2 deletions(-)
+ delete mode 100644 test.py
 
 jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (acido_b4)
 $ git push -u acido_it120_activity1 acido_b4
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.34 KiB | 1.34 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'acido_b4' on GitHub by visiting:
+remote:      https://github.com/C1dd03/Acido_IT120_Activity1/pull/new/acido_b4
+remote:
+To https://github.com/C1dd03/Acido_IT120_Activity1.git
+ * [new branch]      acido_b4 -> acido_b4
+branch 'acido_b4' set up to track 'acido_it120_activity1/acido_b4'.
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (acido_b4)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'acido_it120_activity1/main'.
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git checkout acido_b4 -- readme.txt
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git checkout acido_b3 -- background.txt
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git checkout acido_b2 -- education.txt
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git checkout acido_b1 -- profile.txt
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git add .
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git commit -m "Copy/Merge files"
+[main f6bc91e] Copy/Merge files
+ 4 files changed, 228 insertions(+), 2 deletions(-)
+
+jstin@DESKTOP-0J7J0RJ MINGW64 ~/acido_it120_activity1 (main)
+$ git push
+
